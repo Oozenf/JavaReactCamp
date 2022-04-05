@@ -38,13 +38,15 @@ public class Test {
 		
 		// Students were assigned courses.
 		StudentManager sm = new StudentManager();
-		sm.addCourse(student2, course1);
+		sm.addCourse(student2, course2);
 		sm.addCourse(student1,courses);
-		sm.addCourse(student3,courses);
+		sm.addCourse(student3,course1);
 		
 		// Listing
 		cm.showStudent(course1);
-		sm.showCourse(student1);		
+		cm.showStudent(course2);
+		sm.showCourse(student1);
+		sm.showCourse(student3);
 		im.showCourse(instructor2);
 		
 	}

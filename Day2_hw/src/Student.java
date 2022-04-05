@@ -52,6 +52,7 @@ public class Student {
 
 	public void setCourse(Course course) {
 		this.course = course;
+		
 	}
 	
 	
